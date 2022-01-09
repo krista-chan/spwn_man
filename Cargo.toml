@@ -1,0 +1,8 @@
+[package]
+name = "spwn-man-gen"
+version = "0.1.0"
+authors = ["krista-chan <qbotdev84@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+man = "0.3.0"
