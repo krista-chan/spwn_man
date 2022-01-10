@@ -3,6 +3,7 @@ use man::prelude::*;
 fn main() {
     let out = Manual::new("spwn")
         .author(Author::new("Spu7nix").email("main@spu7nix.net"))
+        .author(Author::new("Contributors").email("https://github.com/Spu7Nix/SPWN-language/graphs/contributors"))
         .flag(Flag::new().long("--console-output").short("-c").help(
             "Makes the script print the created level into the console instead of writing it to your save file",
         ))
